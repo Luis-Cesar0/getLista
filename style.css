@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f9fb;
+    color: #333;
+    padding: 2rem;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  #post-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #post-list li {
+    background-color: #ffffff;
+    margin-bottom: 0.8rem;
+    padding: 1rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: background-color 0.2s ease;
+  }
+  
+  #post-list li:hover {
+    background-color: #f0f8ff;
+  }
+  
